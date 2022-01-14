@@ -47,3 +47,52 @@ table {
 	border-spacing: 0;
 }
 
+/***************************************************************
+                    Customm Styles 
+ ****************************************************************/
+
+ html{
+    background-color:darkgreen;
+    font-size:18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    line-height:2;
+    width:800px;
+    margin:0 auto;
+    background-color: yellow;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main{
+    background-color:blue;
+    margin:10px;
+    padding:25px;
+    color: whitesmoke;
+}
+
+main img{
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+}
+
+footer{
+    padding: 40px 10px;
+    color: darkgreen;
+    
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkgreen;
+    text-align: center;
+
+}
